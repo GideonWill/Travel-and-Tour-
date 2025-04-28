@@ -110,7 +110,7 @@ const About = () => {
             className="stat-item"
             variants={fadeInUp}
           >
-            <h3>2</h3>
+            <h3>10+</h3>
             <p>Years of Experience</p>
           </motion.div>
           <motion.div 
@@ -137,7 +137,7 @@ const About = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        <h2>Meet Our Travel Experts</h2>
+        <h2>Meet Our Travel Expert</h2>
         <motion.div 
           className="team-grid"
           initial="hidden"
@@ -151,8 +151,8 @@ const About = () => {
             whileHover={{ y: -8, transition: { duration: 0.3 } }}
           >
             <div className="team-image" style={{ backgroundColor: '#E3F4F4' }}></div>
-            <h3>Samuel Ayew</h3>
-            <p>Travel Consultant</p>
+            <h3>John Sackey</h3>
+            <p>Travel Expert</p>
           </motion.div>
           <motion.div 
             className="team-member"
