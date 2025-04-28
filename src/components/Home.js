@@ -147,7 +147,7 @@ const Home = () => {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <h3><CountUp end={2} duration={2} enableScrollSpy scrollSpyOnce /></h3>
+            <h3><CountUp end={10} duration={2} suffix="+" enableScrollSpy scrollSpyOnce /></h3>
             <p>Years of Experience</p>
           </motion.div>
           <motion.div 

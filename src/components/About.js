@@ -154,24 +154,6 @@ const About = () => {
             <h3>John Sackey</h3>
             <p>Travel Expert</p>
           </motion.div>
-          <motion.div 
-            className="team-member"
-            variants={fadeInUp}
-            whileHover={{ y: -8, transition: { duration: 0.3 } }}
-          >
-            <div className="team-image" style={{ backgroundColor: '#D7E5CA' }}></div>
-            <h3>Abena Mensah</h3>
-            <p>Visa Specialist</p>
-          </motion.div>
-          <motion.div 
-            className="team-member"
-            variants={fadeInUp}
-            whileHover={{ y: -8, transition: { duration: 0.3 } }}
-          >
-            <div className="team-image" style={{ backgroundColor: '#F8E8EE' }}></div>
-            <h3>Kwame Osei</h3>
-            <p>Customer Relations</p>
-          </motion.div>
         </motion.div>
       </motion.section>
 
